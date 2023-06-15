@@ -1,0 +1,313 @@
+@media (max-width: 991px) {
+  .footer__column {
+    flex: 1 1 calc(100% / 2 - 20px);
+    max-width: calc(100% / 2 - 20px);
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .hero .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 655px) and (max-width: 991px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 655px) {
+  .invetments .controller {
+    align-items: center;
+    justify-content: center;
+  }
+  .invetments .controller .btns {
+    display: none;
+  }
+  .invetments .btns-mobile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .features .feat-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .copyright {
+    justify-content: center;
+  }
+  .copyright h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .features .feat-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero .btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    border-radius: 0 0 0 50px;
+  }
+  .risk,
+  .contact,
+  .features {
+    border-radius: 50px 0px 50px 0px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .last .layer-zero {
+    height: 1500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .last .layer-zero {
+    height: 1100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .risk,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .risk .container,
+  .contact .container {
+    padding: 5% 0;
+  }
+  .risk .svg-bg,
+  .contact .svg-bg {
+    position: relative;
+    width: 100%;
+  }
+  .partners .logos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .features .container,
+  .features__inner {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .how .container {
+    width: 90%;
+  }
+
+  .steps .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features__cards,
+  .teams__cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+@media (min-width: 900) and (max-width: 991px) {
+  .features .card {
+    padding: 35px;
+  }
+
+  .features .container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__text-title,
+  .mission__text-title,
+  .features__text-title {
+    font-size: 57px;
+    margin-bottom: 32px;
+  }
+  .hero__text-subtitle,
+  .mission__text-details {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .btns__group .secondary-btn,
+  .hero__inner .primary-btn {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 467px) {
+  #jobs .hero__text-title {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .hero__text-title,
+  .mission__text-title,
+  .features__text-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero__text-subtitle,
+  .mission__text-details {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    font-size: 15px;
+  }
+  .certificates .certif-cards {
+    flex-direction: column;
+  }
+
+  .partners .logos {
+    gap: 2rem;
+  }
+
+  .partners .logos img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .faq .faq-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .jobs__cards,
+  .terms__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .absolute-svg-one,
+  .absolute-svg-two {
+    width: 30vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 660px) {
+  .nav .navbar-actions .primary-btn,
+  .nav .navbar-actions .secondary-btn {
+    display: none;
+  }
+  .aside__tabs-mobile {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1300px) {
+  .nav .toggle {
+    display: block;
+  }
+  .nav .links {
+    display: none;
+  }
+  .links-mobile.collapse {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+    box-shadow: 0px 3px 13px 1px rgb(0 0 0 / 20%);
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero__inner,
+  .mission__wrapper {
+    flex-direction: column;
+  }
+  .hero__placeholder-image {
+    max-width: 100%;
+  }
+  .hero__text,
+  .mission__text-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  .logos__wrapper {
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .hero__placeholder {
+    text-align: center;
+  }
+  .mission__placeholder {
+    justify-content: center;
+  }
+  .hero__placeholder .absolute-svg-one,
+  .hero__placeholder .absolute-svg-two,
+  .mission__placeholder .absolute-svg-one,
+  .mission__placeholder .absolute-svg-two {
+    width: 20vw;
+  }
+  .hero__placeholder .absolute-svg-one,
+  .mission__placeholder .absolute-svg-one {
+    top: 0;
+    left: 0;
+  }
+  .hero__placeholder .absolute-svg-two,
+  .mission__placeholder .absolute-svg-two {
+    bottom: 0;
+    right: 0;
+  }
+  .aside-open {
+    display: block;
+  }
+  .aside__tabs {
+    display: none;
+  }
+  .terms__inner {
+    padding: 0;
+  }
+  .tab__content-title {
+    margin: 0 61px 41px 0;
+  }
+
+  .features__cards,
+  .teams__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
